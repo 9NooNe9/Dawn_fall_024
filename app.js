@@ -5,6 +5,6 @@ function parallax(element, distance, speed) {
 
 window.addEventListener('scroll', () => {
     parallax('header', window.scrollY,1);
-    parallax('.small-rose',window.scrollY,0.3);
+    parallax('.small-rose',window.scrollY,0.2);
     parallax('.big-rose',window.scrollY,0.1);
 })
